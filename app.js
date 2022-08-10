@@ -24,7 +24,7 @@ window.requestAnimFrame = (function () {
 
 const queryString = window.location.search;
 const urlParams = new URLSearchParams(queryString);
-const customText = urlParams.get('text') || 'Selamat hari milad, maaf telat 1 hari -666';
+const customText = urlParams.get('text') || 'Selamat hari milad Siti Amalia Agustin, maaf telat 1 hari -666';
 const space = '                        ';
 const txt = space + customText;
 
